@@ -25,6 +25,8 @@ footer {
 
 footer {
   grid-template-columns: 400px 1fr;
+  font-size: 1.1rem;
+  color: #134266;
 }
 
 main {
@@ -56,11 +58,6 @@ a:link {
 a:visited {
   color: default;
   text-decoration: none;
-}
-
-.footertext {
-  font-size: 1.1rem;
-  color: #134266;
 }
 
 /* Class Selectors */
