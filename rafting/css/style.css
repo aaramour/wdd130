@@ -55,6 +55,7 @@ h2 {
 p {
   font-size: 1rem;
   color: #eeeeee;
+  line-height: 1.5;
 }
 /*
 a:link {
@@ -88,11 +89,21 @@ a:visited {
   text-decoration: none;
   background-color: #78c5d7;
   border: 2px solid black;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 .mainnavleft a {
-  border: 0px, 1px, 0px, 1px;
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  border-right: 0px;
+}
+
+.mainnavright a {
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  border-left: 0px;
 }
 
 .mainnav a:hover {
@@ -114,6 +125,7 @@ a:visited {
   width: 35px;
   height: auto;
   margin: 6px;
+  box-shadow: 5px 5px 5px gray;
 }
 
 .heroimage {
