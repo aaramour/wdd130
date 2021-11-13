@@ -63,10 +63,3 @@
   font-size: 1.1rem;
   font-weight: bold;
 }
-
-.wireframe {
-  border: 3px solid black;
-  width: fit-content;
-  padding: 15px;
-  margin: 20px;
-}
