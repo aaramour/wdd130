@@ -4,7 +4,6 @@ body {
   padding: 0;
   font-family: "Glory", Georgia, sans-serif;
   box-sizing: border-box;
-  width: 960px;
 }
 
 header,
@@ -255,7 +254,6 @@ input:checked + label + .content {
   background: #134266;
   padding: 1rem;
   color: white;
-  size: 1.4rem;
 }
 
 .left {
