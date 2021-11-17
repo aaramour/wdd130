@@ -10,7 +10,7 @@ header,
 footer {
   margin: 0 auto;
   border: 1px solid #bbbbbb;
-  padding: 0.5rem;
+  padding: 1rem;
   background-color: #fce172;
   display: grid;
   grid-template-columns: 200px 1fr;
@@ -143,9 +143,8 @@ p {
 }
 
 .heroimage {
-  width: auto;
+  width: 100%;
   height: auto;
-  justify-self: center;
   position: relative;
 }
 
@@ -193,6 +192,11 @@ label .hover {
 
 .content p {
   margin: 0px;
+}
+
+.content a {
+  font-size: 1.2rem;
+  text-decoration: none;
 }
 
 input + label + .content {
@@ -266,7 +270,6 @@ input:checked + label + .content {
 
 .section1 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-items: center;
 }
