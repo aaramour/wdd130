@@ -20,34 +20,84 @@
   <body>
     <div class="page">
       <header>
-        <img src="images/couch_transparent_small.png" alt="couchflix logo" />
+        <img
+          class="logo"
+          src="images/couch_transparent_sm.png"
+          alt="couchflix logo"
+        />
         <h1>Couchflix</h1>
         <p>Find what to watch, fast.</p>
         <nav>
           <ul class="mainnav">
-            <li>Hi, User!</li>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="search.html">Search</a></li>
-            <li><a href="recommend.html">Recommended</a></li>
+            <li>Hi, Anonymous!</li>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li>
+              <a href="search.html">Search</a>
+            </li>
+            <li class="rightnav"><a href="recommend.html">Recommended</a></li>
           </ul>
         </nav>
       </header>
 
       <main>
-        <div class="searcher"></div>
-        <div class="recommender"></div>
-        <div class="heroimage">
-          <img
-            src="images/heroimage.jpg"
-            alt="Photo by Andres Ayrton from Pexels"
+        <div class="card">
+          <h2>Search for something to watch</h2>
+          <input
+            type="text"
+            id="search"
+            name="search_term"
+            placeholder="Search by title, actor, genre..."
           />
+          <button>Search</button>
         </div>
+        <a href="recommend.html">
+          <div class="card">
+            <h2>Recommend something to me now!</h2>
+          </div></a
+        >
+        <img
+          class="heroimage"
+          src="images/heroimage.jpg"
+          alt="Photo by Andres Ayrton from Pexels"
+        />
+        <div class="about">
+          <h3>About Couchflix</h3>
+          <p>
+            Our goal at Couchflix is to allow you to have more time watching the
+            movies or shows you want to watch rather than spending your time
+            searching for it. You can set up a profile to keep track of things
+            you've watched and get personalized recommendations, or you can just
+            swing by and get the fastest recommendation on the internet.
+          </p>
+        </div>
+
         <div class="about"></div>
       </main>
 
       <footer>
-        <div class="copyright"></div>
-        <div class="social"></div>
+        <img
+          class="logo"
+          src="images/couch_transparent_sm.png"
+          alt="Couchflix"
+        />
+        <div class="copyright"><p>© 2021 Aaron Eardley | WDD130</p></div>
+        <div class="social">
+          <a href="https://www.instagram.com" target="_blank"
+            ><img
+              class="socialmedia"
+              src="images/instagram.png"
+              alt="Instagram"
+          /></a>
+          <a href="https://www.facebook.com" target="_blank"
+            ><img class="socialmedia" src="images/facebook.png" alt="Facebook"
+          /></a>
+          <a href="https://www.twitter.com" target="_blank"
+            ><img class="socialmedia" src="images/twitter.png" alt="Twitter"
+          /></a>
+          <a href="https://www.tiktok.com" target="_blank"
+            ><img class="socialmedia" src="images/tiktok.png" alt="TikTok"
+          /></a>
+        </div>
       </footer>
     </div>
   </body>

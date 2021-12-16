@@ -10,38 +10,110 @@
       content="Couchflix. Find what to watch without spending time doing it. Search for things to watch"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="page">
       <header>
-        <img src="" alt="" />
+        <img
+          class="logo"
+          src="images/couch_transparent_sm.png"
+          alt="couchflix logo"
+        />
         <h1>Couchflix</h1>
-        <p></p>
-        <div class="nav">
-          <ul>
+        <p>Find what to watch, fast.</p>
+        <nav>
+          <ul class="mainnav">
+            <li>Hi, Anonymous!</li>
             <li><a href="index.html">Home</a></li>
-            <li><a href="search.html">Search</a></li>
-            <li><a href="recommend.html">Recommended</a></li>
+            <li><a class="active" href="search.html">Search</a></li>
+            <li class="rightnav"><a href="recommend.html">Recommended</a></li>
           </ul>
-        </div>
+        </nav>
       </header>
 
-      <main>
-        <div class="paramaters"></div>
-        <div class="services"></div>
-        <div class="result1">
-          <div class="poster-sm"></div>
-          <div class="summary-sm"></div>
+      <main class="onesection">
+        <h2>Search Results</h2>
+        <div class="searchsubheader">
+          <div class="threesections">
+            <h3>Search Results For:</h3>
+            <div class="parameters">Pirates, adventure, love</div>
+          </div>
+          <div class="threesections">
+            <h3>On Services:</h3>
+            <div class="services">
+              <img src="images/netflix.png" alt="Netflix" />
+              <img src="images/hulu.png" alt="Hulu" />
+              <img src="images/prime.png" alt="Prime" />
+            </div>
+          </div>
         </div>
-        <div class="result2">
-          <div class="poster-sm"></div>
-          <div class="summary-sm"></div>
+
+        <div class="results-section">
+          <div class="result">
+            <img
+              class="poster-sm"
+              src="images/Stardust_sm.jpg"
+              alt="Stardust"
+            />
+            <h3>Stardust</h3>
+            <div class="summary-sm">
+              A young man in search of a star in a magical realm finds love,
+              adventure, pirates, and self-efficacy.
+            </div>
+            <div>
+              <img class="vote" src="images/dislike.png" alt="dislike" />
+              <img class="vote" src="images/heart.png" alt="heart" />
+            </div>
+          </div>
+          <div class="result">
+            <img
+              class="poster-sm"
+              src="images/Porco_Rosso_sm.jpg"
+              alt="Porco Rosso"
+            />
+            <h3>Porco Rosso</h3>
+            <div class="summary-sm">
+              A bewitched pig-man mercenary discovers companionship,
+              selflessness, pirates, and adventure.
+            </div>
+            <div>
+              <img class="vote" src="images/dislike.png" alt="dislike" />
+              <img class="vote" src="images/heart.png" alt="heart" />
+            </div>
+          </div>
         </div>
       </main>
 
       <footer>
-        <div class="copyright"></div>
-        <div class="social"></div>
+        <img
+          class="logo"
+          src="images/couch_transparent_sm.png"
+          alt="Couchflix"
+        />
+        <div class="copyright"><p>© 2021 Aaron Eardley | WDD130</p></div>
+        <div class="social">
+          <a href="https://www.instagram.com" target="_blank"
+            ><img
+              class="socialmedia"
+              src="images/instagram.png"
+              alt="Instagram"
+          /></a>
+          <a href="https://www.facebook.com" target="_blank"
+            ><img class="socialmedia" src="images/facebook.png" alt="Facebook"
+          /></a>
+          <a href="https://www.twitter.com" target="_blank"
+            ><img class="socialmedia" src="images/twitter.png" alt="Twitter"
+          /></a>
+          <a href="https://www.tiktok.com" target="_blank"
+            ><img class="socialmedia" src="images/tiktok.png" alt="TikTok"
+          /></a>
+        </div>
       </footer>
     </div>
   </body>

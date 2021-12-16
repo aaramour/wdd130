@@ -10,33 +10,87 @@
       content="Couchflix. Find what to watch without spending time doing it. Here's your recommendation."
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="page">
       <header>
-        <img src="" alt="" />
+        <img
+          class="logo"
+          src="images/couch_transparent_sm.png"
+          alt="couchflix logo"
+        />
         <h1>Couchflix</h1>
-        <p></p>
-        <div class="nav">
-          <ul>
+        <p>Find what to watch, fast.</p>
+        <nav>
+          <ul class="mainnav">
+            <li>Hi, Anonymous!</li>
             <li><a href="index.html">Home</a></li>
             <li><a href="search.html">Search</a></li>
-            <li><a href="recommend.html">Recommended</a></li>
+            <li class="rightnav">
+              <a class="active" href="recommend.html">Recommended</a>
+            </li>
           </ul>
-        </div>
+        </nav>
       </header>
 
-      <main>
-        <div class="poster"></div>
-        <div class="detail-summary">
-          <div class="services"></div>
+      <main class="grid4060">
+        <div class="poster">
+          <img src="images/princess_bride.jpg" alt="The Princess Bride" />
         </div>
-        <div class="similar"></div>
+        <div class="detail-summary">
+          <h2>The Princess Bride</h2>
+          <h3 class="right">1987</h3>
+          <h3>PG</h3>
+          <h3 class="right">8.1/10</h3>
+
+          <h3>Services:</h3>
+          <div class="services">
+            <img src="images/netflix.png" alt="Netflix" />
+            <img src="images/hulu.png" alt="Hulu" />
+            <img src="images/prime.png" alt="Prime" />
+          </div>
+          <p class="descriptor">Genres: Comedy, Romance, Adventure, Action</p>
+          <p class="descriptor">Content: Violence, Mild Blood, Mild Language</p>
+        </div>
+        <div class="similar">
+          <h3>You might also like:</h3>
+          <img src="images/Stardust_sm.jpg" alt="Stardust" />
+          <img src="images/Ghostbusters_sm.png" alt="Ghostbusters" />
+          <img src="images/Napoleon_dynamite_sm.jpg" alt="Napoleon Dynamite" />
+          <img src="images/Porco_Rosso_sm.jpg" alt="Porco Rosso" />
+        </div>
       </main>
 
       <footer>
-        <div class="copyright"></div>
-        <div class="social"></div>
+        <img
+          class="logo"
+          src="images/couch_transparent_sm.png"
+          alt="Couchflix"
+        />
+        <div class="copyright"><p>© 2021 Aaron Eardley | WDD130</p></div>
+        <div class="social">
+          <a href="https://www.instagram.com" target="_blank"
+            ><img
+              class="socialmedia"
+              src="images/instagram.png"
+              alt="Instagram"
+          /></a>
+          <a href="https://www.facebook.com" target="_blank"
+            ><img class="socialmedia" src="images/facebook.png" alt="Facebook"
+          /></a>
+          <a href="https://www.twitter.com" target="_blank"
+            ><img class="socialmedia" src="images/twitter.png" alt="Twitter"
+          /></a>
+          <a href="https://www.tiktok.com" target="_blank"
+            ><img class="socialmedia" src="images/tiktok.png" alt="TikTok"
+          /></a>
+        </div>
       </footer>
     </div>
   </body>
