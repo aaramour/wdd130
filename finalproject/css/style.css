@@ -4,11 +4,11 @@
 }
 
 :root {
-  --color4: #5db7de;
   --color1: #f1e9db;
-  --color5: #b95f89;
   --color2: #301a4b;
   --color3: #c884a6;
+  --color4: #5db7de;
+  --color5: #b95f89;
 }
 
 body {
@@ -19,8 +19,8 @@ body {
 }
 
 a:visited {
-  text-decoration: var(--color5);
-  color: var(--color2);
+  text-decoration: var(--color3);
+  color: black;
 }
 
 .heroimage {
@@ -64,7 +64,7 @@ nav {
   background: var(--color5);
   border-left: 2px solid black;
   border-top: 2px solid black;
-  color: var(--color2);
+  color: black;
 }
 
 .mainnav a:hover {
@@ -244,7 +244,6 @@ h3 {
 
 .onesection {
   display: block;
-  grid-column: 1/;
 }
 
 .twosections {
@@ -261,7 +260,7 @@ h3 {
 }
 
 .searchsubheader {
-  background: var(--color3);
+  background: var(--color4);
   border-radius: 24px;
   margin: 24px;
 }
@@ -271,7 +270,7 @@ h3 {
   grid-template-columns: 200px 1fr;
   align-items: center;
   font-size: 1.4rem;
-  background: var(--color5);
+  background: var(--color3);
   margin: 24px;
   padding: 0;
 }
